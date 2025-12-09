@@ -1,0 +1,100 @@
+---
+---
+
+@import "jekyll-theme-architect";
+
+:root {
+  --bg-color: #222;
+  --text-color: #eee;
+  --accent-color: #00e5ff; /* Cyan/Teal */
+  --accent-secondary: #ff9100; /* Orange */
+  --code-bg: #111;
+  --border-color: #444;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: #1a1a1a;
+  background-image: none; /* Remove default theme pattern if desired, or keep it */
+  border-bottom: 3px solid var(--accent-color);
+}
+
+header h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--accent-color);
+  text-shadow: 0 0 5px rgba(0, 229, 255, 0.5);
+}
+
+header h2 {
+    color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content-wrapper {
+    background-color: var(--bg-color);
+}
+
+/* Nav */
+nav.site-nav {
+  margin-top: 20px;
+}
+nav.site-nav a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: monospace;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+nav.site-nav a:hover {
+  border-bottom-color: var(--accent-secondary);
+  color: var(--accent-secondary);
+}
+
+/* Projects / Cards */
+.project-card {
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #2a2a2a;
+    border-radius: 4px;
+}
+.project-card h3 {
+    margin-top: 0;
+    color: var(--accent-color);
+}
+.project-meta {
+    font-size: 0.9em;
+    color: #aaa;
+    font-family: monospace;
+}
+
+/* Devlog */
+.devlog-entry {
+    margin-bottom: 30px;
+    border-left: 3px solid var(--accent-secondary);
+    padding-left: 15px;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    border-top: 1px solid var(--border-color);
+    margin-top: 40px;
+}
+
+code, pre {
+    font-family: 'Consolas', 'Monaco', monospace;
+    background-color: var(--code-bg);
+    color: #d4d4d4;
+    border: 1px solid #333;
+}

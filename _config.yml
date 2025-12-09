@@ -1,3 +1,32 @@
-remote_theme: pages-themes/architect@v0.2.0
 title: William Qiu
-description: My personal site and dev logs.
+description: Researcher • ML Engineer • Game Dev
+remote_theme: pages-themes/architect@v0.2.0
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  devlog:
+    output: true
+    permalink: /devlog/:name/
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - resume.md
+  - projects.md
+  - devlog.md
+
+# Footer/Social
+github_username: williamQ96
+email: william@example.com # Placeholder
+show_downloads: false
