@@ -14,3 +14,5 @@ Short, direct, and always evolving.
 
 > 🐸🚀 **Meme-Based Engineering:** We propose "Meme-Based Engineering" (MBE) as a development trend for the current era. MBE is a software development paradigm driven by the lifecycle of internet trends, using AI as the primary creative tool. It adopts ultra-short cycles, micro-scale teams, low maintenance costs, and pursues immediate market value realization.
 
+> 🤖📈 **NOFX AI Quantitative Trading:** Actively developing and fine-tuning AI models for quantitative trading strategies. Exploring advanced machine learning techniques to optimize market predictions and execution. 🚀💰
+
