@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Used Shop @ 24th&Patterson</title>
+    <!-- Vue 3 CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="header-top">
+                <h1>Used Shop @ 24th&Patterson</h1>
+                <button @click="toggleCart" class="cart-btn">
+                    Cart ({{ cartCount }})
+                </button>
+            </div>
+            <div class="filters">
+                <button v-for="cat in categories" :key="cat" :class="{ active: selectedCategory === cat }"
+                    @click="selectedCategory = cat">
+                    {{ cat }}
+                </button>
+            </div>
+        </header>
+
+        <div v-if="loading">Loading products...</div>
+        <div v-else-if="error" class="error">Error: {{ error }}</div>
+
+        <main v-else>
+            <div class="product-grid">
+                <div v-for="product in filteredProducts" :key="product.id" class="product-card">
+                    <img :src="product.image" :alt="product.name">
+                    <h3>{{ product.name }}</h3>
+                    <p class="price">${{ product.price.toFixed(2) }}</p>
+                    <p class="category">{{ product.category }}</p>
+                    <button @click="addToCart(product)" class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Cart Modal -->
+        <div v-if="isCartOpen" class="cart-modal-overlay">
+            <div class="cart-modal">
+                <div class="cart-header">
+                    <h2>Your Cart</h2>
+                    <button @click="toggleCart" class="close-btn">&times;</button>
+                </div>
+                <div v-if="cart.length === 0" class="empty-cart">
+                    Your cart is empty.
+                </div>
+                <div v-else class="cart-items">
+                    <div v-for="item in cart" :key="item.id" class="cart-item">
+                        <div class="item-info">
+                            <h4>{{ item.name }}</h4>
+                            <p>${{ item.price }} x {{ item.quantity }}</p>
+                        </div>
+                        <button @click="removeFromCart(item.id)" class="remove-btn">Remove</button>
+                    </div>
+                    <div class="cart-total">
+                        <h3>Total: ${{ cartTotal.toFixed(2) }}</h3>
+                    </div>
+
+                    <div class="contact-info">
+                        <label for="contact">Contact Info (Email/Phone):</label>
+                        <input type="text" id="contact" v-model="contactInfo" placeholder="e.g., user@example.com"
+                            required>
+                    </div>
+
+                    <button @click="checkout" class="checkout-btn" :disabled="isCheckingOut || !contactInfo">
+                        {{ isCheckingOut ? 'Processing...' : 'Place Order' }}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Logic -->
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

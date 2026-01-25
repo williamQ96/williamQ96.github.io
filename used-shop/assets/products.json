@@ -1,0 +1,23 @@
+[
+  {
+    "id": "item-001",
+    "name": "Vintage Lamp",
+    "price": 45.00,
+    "category": "Furniture",
+    "image": "https://via.placeholder.com/300?text=Lamp"
+  },
+  {
+    "id": "item-002",
+    "name": "Leather Jacket",
+    "price": 120.00,
+    "category": "Clothing",
+    "image": "https://via.placeholder.com/300?text=Jacket"
+  },
+  {
+    "id": "item-003",
+    "name": "Old Camera",
+    "price": 85.00,
+    "category": "Electronics",
+    "image": "https://via.placeholder.com/300?text=Camera"
+  }
+]

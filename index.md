@@ -16,3 +16,5 @@ Short, direct, and always evolving.
 
 > 🤖📈 **NOFX AI Quantitative Trading:** Actively developing and fine-tuning AI models for quantitative trading strategies. Exploring advanced machine learning techniques to optimize market predictions and execution. 🚀💰
 
+> 🛒 **Used Shop:** Check out the new [Used Shop @ 24th&Patterson](./used-shop/) page! 🏷️
+
