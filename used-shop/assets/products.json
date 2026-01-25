@@ -1,23 +1,163 @@
 [
   {
     "id": "item-001",
-    "name": "Vintage Lamp",
-    "price": 45.00,
+    "name": "4ft Fluorescent Shop Light Fixture – Hanging or Surface Mount",
+    "price": 10.0,
     "category": "Furniture",
-    "image": "https://via.placeholder.com/300?text=Lamp"
+    "image": "assets/images/4ft%20Fluorescent%20Shop%20Light%20Fixture%20%E2%80%93%20Hanging%20or%20Surface%20Mount.jpg"
   },
   {
     "id": "item-002",
-    "name": "Leather Jacket",
-    "price": 120.00,
-    "category": "Clothing",
-    "image": "https://via.placeholder.com/300?text=Jacket"
+    "name": "ARRIS Surfboard SB6141 Cable Modem (DOCSIS 3.0)",
+    "price": 15.0,
+    "category": "Electronics",
+    "image": "assets/images/ARRIS%20Surfboard%20SB6141%20Cable%20Modem%20%28DOCSIS%203.0%29.jpg"
   },
   {
     "id": "item-003",
-    "name": "Old Camera",
-    "price": 85.00,
+    "name": "BTS Mascot Plush Pillow – Large & Soft",
+    "price": 25.0,
+    "category": "Misc",
+    "image": "assets/images/BTS%20Mascot%20Plush%20Pillow%20%E2%80%93%20Large%20%26%20Soft.jpg"
+  },
+  {
+    "id": "item-004",
+    "name": "Black Hair Dryer with Safety Plug – Works Great",
+    "price": 10.0,
     "category": "Electronics",
-    "image": "https://via.placeholder.com/300?text=Camera"
+    "image": "assets/images/Black%20Hair%20Dryer%20with%20Safety%20Plug%20%E2%80%93%20Works%20Great.jpg"
+  },
+  {
+    "id": "item-005",
+    "name": "Cuisinart 8 Chef’s Knife – Well-Used, Still Sharp",
+    "price": 8.0,
+    "category": "Kitchen",
+    "image": "assets/images/Cuisinart%208%20Chef%E2%80%99s%20Knife%20%E2%80%93%20Well-Used%2C%20Still%20Sharp.jpg"
+  },
+  {
+    "id": "item-006",
+    "name": "Cuisinart Paring Knife (3.5) – Used, Still Sharp",
+    "price": 5.0,
+    "category": "Kitchen",
+    "image": "assets/images/Cuisinart%20Paring%20Knife%20%283.5%29%20%E2%80%93%20Used%2C%20Still%20Sharp.jpg"
+  },
+  {
+    "id": "item-007",
+    "name": "Diablo 3 x 18 Sanding Belts – 50 Grit (2-Pack)",
+    "price": 8.0,
+    "category": "Tools",
+    "image": "assets/images/Diablo%203%20x%2018%20Sanding%20Belts%20%E2%80%93%2050%20Grit%20%282-Pack%29.jpg"
+  },
+  {
+    "id": "item-008",
+    "name": "Gigabyte GA-Z97M-D3H Motherboard + Intel Core i5-4690 CPU (LGA 1150)",
+    "price": 75.0,
+    "category": "Electronics",
+    "image": "assets/images/Gigabyte%20GA-Z97M-D3H%20Motherboard%20%2B%20Intel%20Core%20i5-4690%20CPU%20%28LGA%201150%29.jpg"
+  },
+  {
+    "id": "item-009",
+    "name": "Jump Rope with Foam Handles – Black",
+    "price": 5.0,
+    "category": "Misc",
+    "image": "assets/images/Jump%20Rope%20with%20Foam%20Handles%20%E2%80%93%20Black.jpg"
+  },
+  {
+    "id": "item-010",
+    "name": "Large White Ceramic Bowl – Approx. 11–12” Diameter",
+    "price": 8.0,
+    "category": "Kitchen",
+    "image": "assets/images/Large%20White%20Ceramic%20Bowl%20%E2%80%93%20Approx.%2011%E2%80%9312%E2%80%9D%20Diameter.jpg"
+  },
+  {
+    "id": "item-011",
+    "name": "Large White Plastic Bowl – Approx. 11–12” Diameter",
+    "price": 5.0,
+    "category": "Kitchen",
+    "image": "assets/images/Large%20White%20Plastic%20Bowl%20%E2%80%93%20Approx.%2011%E2%80%9312%E2%80%9D%20Diameter.jpg"
+  },
+  {
+    "id": "item-012",
+    "name": "Lie to Me – Complete Series (Seasons 1–3) DVD Set – Brand New Sealed",
+    "price": 25.0,
+    "category": "Movies",
+    "image": "assets/images/Lie%20to%20Me%20%E2%80%93%20Complete%20Series%20%28Seasons%201%E2%80%933%29%20DVD%20Set%20%E2%80%93%20Brand%20New%20Sealed.jpg"
+  },
+  {
+    "id": "item-013",
+    "name": "PS4 Game Bundle – God of War, Death Stranding, Dark Souls III, Persona 5, Tekken 7 & More",
+    "price": 60.0,
+    "category": "Games",
+    "image": "assets/images/PS4%20Game%20Bundle%20%E2%80%93%20God%20of%20War%2C%20Death%20Stranding%2C%20Dark%20Souls%20III%2C%20Persona%205%2C%20Tekken%207%20%26%20More.jpg"
+  },
+  {
+    "id": "item-014",
+    "name": "Resident Evil Revelations (PS3) – Capcom",
+    "price": 8.0,
+    "category": "Games",
+    "image": "assets/images/Resident%20Evil%20Revelations%20%28PS3%29%20%E2%80%93%20Capcom.jpg"
+  },
+  {
+    "id": "item-015",
+    "name": "Roborock Replacement Dust Bags for P10 – 10 Pack (New)",
+    "price": 10.0,
+    "category": "Home",
+    "image": "assets/images/Roborock%20Replacement%20Dust%20Bags%20for%20P10%20%E2%80%93%2010%20Pack%20%28New%29.jpg"
+  },
+  {
+    "id": "item-016",
+    "name": "Roborock Replacement Mop Pad – New (Gray, Microfiber)",
+    "price": 5.0,
+    "category": "Home",
+    "image": "assets/images/Roborock%20Replacement%20Mop%20Pad%20%E2%80%93%20New%20%28Gray%2C%20Microfiber%29.jpg"
+  },
+  {
+    "id": "item-017",
+    "name": "Snow White & the Huntsman – Extended Edition Blu-ray + DVD",
+    "price": 5.0,
+    "category": "Movies",
+    "image": "assets/images/Snow%20White%20%26%20the%20Huntsman%20%E2%80%93%20Extended%20Edition%20Blu-ray%20%2B%20DVD.jpg"
+  },
+  {
+    "id": "item-018",
+    "name": "SodaStream CO2 Cylinders – Empty  Used (Set of 4)",
+    "price": 20.0,
+    "category": "Kitchen",
+    "image": "assets/images/SodaStream%20CO2%20Cylinders%20%E2%80%93%20Empty%20%20Used%20%28Set%20of%204%29.jpg"
+  },
+  {
+    "id": "item-019",
+    "name": "Tekken",
+    "price": 10.0,
+    "category": "Games",
+    "image": "assets/images/Tekken.jpg"
+  },
+  {
+    "id": "item-020",
+    "name": "The Lord of the Rings – Theatrical Versions 3-Film DVD Collection",
+    "price": 12.0,
+    "category": "Movies",
+    "image": "assets/images/The%20Lord%20of%20the%20Rings%20%E2%80%93%20Theatrical%20Versions%203-Film%20DVD%20Collection.jpg"
+  },
+  {
+    "id": "item-022",
+    "name": "White Hair Dryer – Basic, Lightweight, Works Great",
+    "price": 10.0,
+    "category": "Electronics",
+    "image": "assets/images/White%20Hair%20Dryer%20%E2%80%93%20Basic%2C%20Lightweight%2C%20Works%20Great.jpg"
+  },
+  {
+    "id": "item-023",
+    "name": "Zwilling J.A. Henckels 8′′ Bread Knife – High-Carbon Steel (Made in Germany)",
+    "price": 20.0,
+    "category": "Kitchen",
+    "image": "assets/images/Zwilling%20J.A.%20Henckels%208%E2%80%B2%E2%80%B2%20Bread%20Knife%20%E2%80%93%20High-Carbon%20Steel%20%28Made%20in%20Germany%29.jpg"
+  },
+  {
+    "id": "item-024",
+    "name": "iPad Air 4th Gen Case – Slim Tri-Fold Cover (Light Gray)",
+    "price": 5.0,
+    "category": "Electronics",
+    "image": "assets/images/iPad%20Air%204th%20Gen%20Case%20%E2%80%93%20Slim%20Tri-Fold%20Cover%20%28Light%20Gray%29.jpg"
   }
 ]
