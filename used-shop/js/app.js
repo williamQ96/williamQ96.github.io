@@ -64,13 +64,29 @@ const app = createApp({
 
             this.isCheckingOut = true;
 
-            const messageBody = `Note: ${this.orderNote}\n\nOrder Details:\n${JSON.stringify(this.cart, null, 2)}`;
+            // Construct HTML Table for Order Items
+            const itemsHtml = this.cart.map(item => `
+                <tr style="vertical-align: top">
+                    <td style="padding: 12px 8px 0 4px; width: 64px;">
+                        <img style="height: 64px; width: 64px; object-fit: cover; border-radius: 4px;" src="https://williamq96.github.io/used-shop/${item.image}" alt="${item.name}" />
+                    </td>
+                    <td style="padding: 12px 8px 0 8px;">
+                        <div style="font-weight: bold;">${item.name}</div>
+                        <div style="font-size: 14px; color: #666; padding-top: 4px;">Qty: ${item.quantity}</div>
+                    </td>
+                    <td style="padding: 12px 4px 0 0; white-space: nowrap; font-weight: bold; text-align: right;">
+                        $${(item.price * item.quantity).toFixed(2)}
+                    </td>
+                </tr>
+            `).join('');
 
             const orderPayload = {
                 to_name: 'Owner',
-                from_name: this.contactInfo,
-                message: messageBody,
-                total: this.cartTotal.toFixed(2)
+                from_name: this.contactInfo, // Just the contact info now
+                order_note: this.orderNote || 'No notes',
+                order_items: `<table style="width: 100%; border-collapse: collapse;">${itemsHtml}</table>`,
+                total: this.cartTotal.toFixed(2),
+                order_id: `ORD-${Date.now().toString().slice(-6)}`
             };
 
             try {
