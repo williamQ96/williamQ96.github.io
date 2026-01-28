@@ -13,6 +13,7 @@ const app = createApp({
             cart: [],
             isCartOpen: false,
             contactInfo: '',
+            orderNote: '',
             isCheckingOut: false
         }
     },
@@ -62,18 +63,20 @@ const app = createApp({
             }
 
             this.isCheckingOut = true;
-            
+
+            const messageBody = `Note: ${this.orderNote}\n\nOrder Details:\n${JSON.stringify(this.cart, null, 2)}`;
+
             const orderPayload = {
                 to_name: 'Owner',
                 from_name: this.contactInfo,
-                message: JSON.stringify(this.cart, null, 2),
+                message: messageBody,
                 total: this.cartTotal.toFixed(2)
             };
 
             try {
                 // Initialize EmailJS (should be done once, but ensuring here or in mounted)
                 // emailjs.init(CONFIG.EMAILJS_PUBLIC_KEY); // Assuming init is done or using send with Key
-                
+
                 await emailjs.send(
                     CONFIG.EMAILJS_SERVICE_ID,
                     CONFIG.EMAILJS_TEMPLATE_ID,
@@ -84,10 +87,13 @@ const app = createApp({
                 alert('Thank you! We will contact you shortly.');
                 this.cart = [];
                 this.contactInfo = '';
+                this.orderNote = '';
                 this.isCartOpen = false;
             } catch (err) {
                 console.error('Checkout failed', err);
-                alert('Failed to place order. Please try again.');
+                // Show more detailed error to help debugging
+                const msg = err.text || err.message || JSON.stringify(err);
+                alert(`Failed to place order. Error: ${msg}`);
             } finally {
                 this.isCheckingOut = false;
             }

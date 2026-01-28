@@ -76,9 +76,15 @@
                     </div>
 
                     <div class="contact-info">
-                        <label for="contact">Contact Info (Email/Phone) % Note:</label>
+                        <label for="contact">Contact Info (Email/Phone):</label>
                         <input type="text" id="contact" v-model="contactInfo" placeholder="e.g., user@example.com"
                             required>
+                    </div>
+
+                    <div class="contact-info">
+                        <label for="note">Order Note (Optional):</label>
+                        <textarea id="note" v-model="orderNote"
+                            placeholder="Any special requests or offers?"></textarea>
                     </div>
 
                     <button @click="checkout" class="checkout-btn" :disabled="isCheckingOut || !contactInfo">

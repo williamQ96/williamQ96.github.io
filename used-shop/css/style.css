@@ -156,11 +156,18 @@ header {
     margin-bottom: 0.5rem;
 }
 
-.contact-info input {
+.contact-info input,
+.contact-info textarea {
     width: 100%;
     padding: 0.5rem;
     border: 1px solid #ddd;
     border-radius: 4px;
+    font-family: inherit;
+}
+
+.contact-info textarea {
+    resize: vertical;
+    min-height: 60px;
 }
 
 /* Responsive */
