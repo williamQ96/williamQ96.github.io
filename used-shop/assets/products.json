@@ -159,5 +159,180 @@
     "price": 5.0,
     "category": "Electronics",
     "image": "assets/images/iPad%20Air%204th%20Gen%20Case%20%E2%80%93%20Slim%20Tri-Fold%20Cover%20%28Light%20Gray%29.jpg"
+  },
+  {
+    "id": "item-025",
+    "name": "AMD Laptop Graphics Card Module (AMD 1428) – For Parts",
+    "price": 25.0,
+    "category": "Electronics",
+    "image": "assets/images/AMD%20Laptop%20Graphics%20Card%20Module%20%28AMD%201428%29%20%E2%80%93%20For%20Parts.jpg"
+  },
+  {
+    "id": "item-026",
+    "name": "Car Windshield Ice Scraper & Frost Remover – New",
+    "price": 8.0,
+    "category": "Tools",
+    "image": "assets/images/Car%20Windshield%20Ice%20Scraper%20%26%20Frost%20Remover%20%E2%80%93%20New.jpg"
+  },
+  {
+    "id": "item-027",
+    "name": "High-End Clip-On Blue Light Filter Lenses – New",
+    "price": 0.0,
+    "category": "Furniture",
+    "image": "assets/images/High-End%20Clip-On%20Blue%20Light%20Filter%20Lenses%20%E2%80%93%20New.jpg"
+  },
+  {
+    "id": "item-028",
+    "name": "Los Angeles Valiant Logo Glass (Overwatch League)",
+    "price": 20.0,
+    "category": "Games",
+    "image": "assets/images/Los%20Angeles%20Valiant%20Logo%20Glass%20%28Overwatch%20League%29.jpg"
+  },
+  {
+    "id": "item-029",
+    "name": "MONSTA X – 2nd AlbumTAKE1",
+    "price": 25.0,
+    "category": "Music",
+    "image": "assets/images/MONSTA%20X%20%E2%80%93%202nd%20AlbumTAKE1.jpg"
+  },
+  {
+    "id": "item-030",
+    "name": "New Silicone Cooking Utensil Set (3-Piece, Heat Resistant)",
+    "price": 10.0,
+    "category": "Kitchen",
+    "image": "assets/images/New%20Silicone%20Cooking%20Utensil%20Set%20%283-Piece%2C%20Heat%20Resistant%29.jpg"
+  },
+  {
+    "id": "item-031",
+    "name": "Overwatch Hanzo Nendoroid #839 (Classic Skin Edition)",
+    "price": 45.0,
+    "category": "Games",
+    "image": "assets/images/Overwatch%20Hanzo%20Nendoroid%20%23839%20%28Classic%20Skin%20Edition%29.jpg"
+  },
+  {
+    "id": "item-032",
+    "name": "Steam Deck Steam Deck OLED Protective Silicone Case – New",
+    "price": 8.0,
+    "category": "Games",
+    "image": "assets/images/Steam%20Deck%20Steam%20Deck%20OLED%20Protective%20Silicone%20Case%20%E2%80%93%20New.jpg"
+  },
+  {
+    "id": "item-034",
+    "name": "Wi-Fi Card with Antennas – Intel Dual Band Wireless-AC 7265",
+    "price": 10.0,
+    "category": "Electronics",
+    "image": "assets/images/Wi-Fi%20Card%20with%20Antennas%20%E2%80%93%20Intel%20Dual%20Band%20Wireless-AC%207265.jpg"
+  },
+  {
+    "id": "item-035",
+    "name": "Camping-Style Ceramic Mug – Forest & Tent Design",
+    "price": 5.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Camping-Style%20Ceramic%20Mug%20%E2%80%93%20Forest%20%26%20Tent%20Design.jpg"
+  },
+  {
+    "id": "item-036",
+    "name": "Clear Glass Shot Glasses – 1 oz – Set of 4",
+    "price": 5.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Clear%20Glass%20Shot%20Glasses%20%E2%80%93%201%20oz%20%E2%80%93%20Set%20of%204.jpg"
+  },
+  {
+    "id": "item-037",
+    "name": "Fine Mesh Kitchen Strainer  Sieve",
+    "price": 3.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Fine%20Mesh%20Kitchen%20Strainer%20%20Sieve.jpg"
+  },
+  {
+    "id": "item-038",
+    "name": "Glass Salt & Pepper Shaker Set (2-Piece)",
+    "price": 3.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Glass%20Salt%20%26%20Pepper%20Shaker%20Set%20%282-Piece%29.jpg"
+  },
+  {
+    "id": "item-039",
+    "name": "Julienne Vegetable Peeler – Red Handle",
+    "price": 1.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Julienne%20Vegetable%20Peeler%20%E2%80%93%20Red%20Handle.jpg"
+  },
+  {
+    "id": "item-040",
+    "name": "Kitchen Vegetable Peeler with Soft Grip Handle",
+    "price": 3.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Kitchen%20Vegetable%20Peeler%20with%20Soft%20Grip%20Handle.jpg"
+  },
+  {
+    "id": "item-041",
+    "name": "Knife Sharpening Steel  Honing Rod",
+    "price": 5.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Knife%20Sharpening%20Steel%20%20Honing%20Rod.jpg"
+  },
+  {
+    "id": "item-042",
+    "name": "Kumamon Coin Bank – Official Japanese Mascot Collectible",
+    "price": 25.0,
+    "category": "Misc",
+    "image": "assets/images/0127/Kumamon%20Coin%20Bank%20%E2%80%93%20Official%20Japanese%20Mascot%20Collectible.jpg"
+  },
+  {
+    "id": "item-043",
+    "name": "Manual Lemon  Citrus Juicer",
+    "price": 5.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Manual%20Lemon%20%20Citrus%20Juicer.jpg"
+  },
+  {
+    "id": "item-044",
+    "name": "Pizza Cutter Wheel – Stainless Steel (New)",
+    "price": 5.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Pizza%20Cutter%20Wheel%20%E2%80%93%20Stainless%20Steel%20%28New%29.jpg"
+  },
+  {
+    "id": "item-045",
+    "name": "Plastic Soup Ladle with Floral Handle",
+    "price": 3.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Plastic%20Soup%20Ladle%20with%20Floral%20Handle.jpg"
+  },
+  {
+    "id": "item-046",
+    "name": "Self-Standing Rice Spatula (Plastic)",
+    "price": 3.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Self-Standing%20Rice%20Spatula%20%28Plastic%29.jpg"
+  },
+  {
+    "id": "item-047",
+    "name": "Skeleton Skull Shot Glasses – 1.5 oz – Set of 5",
+    "price": 15.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Skeleton%20Skull%20Shot%20Glasses%20%E2%80%93%201.5%20oz%20%E2%80%93%20Set%20of%205.jpg"
+  },
+  {
+    "id": "item-048",
+    "name": "Stainless Steel Kitchen Whisk",
+    "price": 3.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Stainless%20Steel%20Kitchen%20Whisk.jpg"
+  },
+  {
+    "id": "item-049",
+    "name": "Straight Vegetable Peeler – Green Handle",
+    "price": 2.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Straight%20Vegetable%20Peeler%20%E2%80%93%20Green%20Handle.jpg"
+  },
+  {
+    "id": "item-050",
+    "name": "Vegetable Peeler (Y-Peeler Style) – Black & Red Handle",
+    "price": 2.0,
+    "category": "Kitchen",
+    "image": "assets/images/0127/Vegetable%20Peeler%20%28Y-Peeler%20Style%29%20%E2%80%93%20Black%20%26%20Red%20Handle.jpg"
   }
 ]

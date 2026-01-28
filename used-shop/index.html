@@ -14,6 +14,10 @@
 </head>
 
 <body>
+    <div class="sidebar-note">
+        Feel free to write a note including your offer price/bundle offer when you checkout. We will contact for
+        pickup/delivery details.
+    </div>
     <div id="app">
         <header>
             <div class="header-top">
@@ -45,6 +49,10 @@
             </div>
         </main>
 
+        <footer class="site-footer">
+            <a href="https://williamq96.github.io/">Powered by BizSmart LLC</a>
+        </footer>
+
         <!-- Cart Modal -->
         <div v-if="isCartOpen" class="cart-modal-overlay">
             <div class="cart-modal">
@@ -68,7 +76,7 @@
                     </div>
 
                     <div class="contact-info">
-                        <label for="contact">Contact Info (Email/Phone):</label>
+                        <label for="contact">Contact Info (Email/Phone) % Note:</label>
                         <input type="text" id="contact" v-model="contactInfo" placeholder="e.g., user@example.com"
                             required>
                     </div>
